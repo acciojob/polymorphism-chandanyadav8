@@ -1,20 +1,22 @@
 package com.driver;
+
 class Product{
-    public double product(int x, int y) {
-        return 0;
+    public int product(int x, int y) {
+        return x*y;
     }
     public int product(int x, int y, int z) {
-        return 0;
+        return x*y*z;
     }
     public double product(double x, double y) {
-        return 0;
+        return x*y;
     }
 }
+
 public class Main {
     public static void main(String[] args) {
 Product p=new Product();
-        System.out.println(p.product(1,1));
-        System.out.println(p.product(1,1));
+        System.out.println(p.product(4,6));
+        System.out.println(p.product(4,4));
         System.out.println(p.product(1,2,3));
     }
 
