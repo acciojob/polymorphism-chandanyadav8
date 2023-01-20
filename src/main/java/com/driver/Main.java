@@ -16,7 +16,7 @@ static class Product{
     public static void main(String[] args) {
 Product p=new Product();
         System.out.println(p.product(4,6));
-        System.out.println(p.product(4,4));
+        System.out.println(p.product(4.4,4.5));
         System.out.println(p.product(1,2,3));
     }
 
